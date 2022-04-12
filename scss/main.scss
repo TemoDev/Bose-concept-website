@@ -1,0 +1,28 @@
+// colors
+$bgColor: #111a20;
+$text-white: #fff;
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+  background-color: $bgColor;
+  color: $text-white;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1440px;
+  margin: auto;
+  padding: 0 20px;
+  position: relative;
+}
+
+@import "./nav";
